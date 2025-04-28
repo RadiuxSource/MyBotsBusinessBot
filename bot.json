@@ -1,0 +1,9 @@
+{
+  "name": "MyBotsBusinessBot",
+  "version": "1.0.0",
+  "description": "A bots.business compatible bot with File-Sharing-Bot functionalities",
+  "author": "",
+  "commands": "commands",
+  "lang": "lang",
+  "settings": "settings.json"
+}
