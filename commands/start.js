@@ -1,17 +1,9 @@
-const { Markup } = require("telegraf");
-
-module.exports = {
-  name: "start",
-  description: "Start command",
-  execute(ctx) {
-    const keyboard = Markup.keyboard([
-      ["/help", "/upload"],
-      ["/download"]
-    ]).resize();
-
-    ctx.reply(
-      "Welcome to MyBotsBusinessBot! Use the buttons below to navigate.",
-      keyboard
-    );
-  }
-};
+/*CMD
+  command: /start
+  help: Start selecting Class and Exam
+  need_reply: false
+  auto_retry_time: 0
+  answer: Welcome! First, select your Class:
+  keyboard: 11th, 12th, Dropper
+  aliases: 
+CMD*/
