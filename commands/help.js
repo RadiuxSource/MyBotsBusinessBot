@@ -7,3 +7,4 @@
   keyboard: 
   aliases: 
 CMD*/
+User.setProperty("command", "/help", "string");

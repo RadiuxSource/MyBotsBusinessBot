@@ -7,3 +7,5 @@
   keyboard: 
   aliases: 
 CMD*/
+User.setProperty("command", "/download", "string");
+Bot.runCommand("/process_download");

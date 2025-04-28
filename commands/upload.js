@@ -7,3 +7,5 @@
   keyboard: 
   aliases: 
 CMD*/
+User.setProperty("command", "/upload", "string");
+Bot.runCommand("/process_upload");

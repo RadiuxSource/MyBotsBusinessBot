@@ -7,3 +7,5 @@
   keyboard: 11th, 12th, Dropper
   aliases: 
 CMD*/
+User.setProperty("command", "/start", "string");
+Bot.runCommand("/select_class");
