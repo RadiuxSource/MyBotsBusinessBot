@@ -1,9 +1,13 @@
 {
-  "name": "MyBotsBusinessBot",
-  "version": "1.0.0",
-  "description": "A bots.business compatible bot with File-Sharing-Bot functionalities",
-  "author": "",
-  "commands": "commands",
-  "lang": "lang",
-  "settings": "settings.json"
+  "name": "My Super Bot",
+  "description": "A cool Telegram bot for JEE/NEET study resources",
+  "version": "1.0",
+  "bb_sync_version": "1.0",
+  "commands": [
+    {
+      "command": "start",
+      "type": "text",
+      "text": "Welcome to the JEE/NEET Bot!"
+    }
+  ]
 }
