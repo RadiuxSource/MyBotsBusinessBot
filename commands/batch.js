@@ -12,4 +12,4 @@ if (!user.telegramid || !User.getProperty("is_admin")) {
   return;
 }
 User.setProperty("batch_mode", true, "boolean");
-Bot.sendMessage("Batch mode enabled. Send your files now.");
+Bot.sendMessage("Batch mode enabled. Send your files now:");
